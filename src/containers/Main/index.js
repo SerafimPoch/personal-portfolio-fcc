@@ -1,15 +1,13 @@
 import React from "react";
-import Title from "../../components/Main/title";
-import Projects from "../../components/Main/projects";
-import Button from "../../components/Main/button";
+import Projects from "../../components/Main/project";
+import Contact from "../../components/Main/contacts";
 import { MainContainer } from "./style";
 
 export default () => {
   return (
     <MainContainer>
-      <Title />
       <Projects />
-      <Button />
+      <Contact />
     </MainContainer>
   );
 };

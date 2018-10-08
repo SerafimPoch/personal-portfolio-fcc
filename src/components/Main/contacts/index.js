@@ -5,7 +5,7 @@ import { ContactContainer } from "./style";
 
 export default () => {
   return (
-    <ContactContainer>
+    <ContactContainer id="contact">
       <Title />
       <Circles />
     </ContactContainer>

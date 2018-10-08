@@ -8,7 +8,7 @@ import {
 
 export default () => {
   return (
-    <ProjectsContainer>
+    <ProjectsContainer id="work">
       <SquereProjectContainer>
         <SquereProject>
           <a href="https://codepen.io/freeCodeCamp/pen/NNvBQW">

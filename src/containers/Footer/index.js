@@ -5,7 +5,7 @@ export default () => {
   return (
     <FooterContainer>
       <p>
-        **This is just a fake portfolio.. All the projects and contact details
+        This is just a fake portfolio.. All the projects and contact details
         given are not real..
       </p>
       <p>

@@ -5,6 +5,10 @@ export const CirclesContainer = styled.div`
   justify-content: space-between;
   width: 60%;
   align-items: center;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const Circle = styled.a`
@@ -19,4 +23,11 @@ export const Circle = styled.a`
   color: green;
   font-weight: bold;
   text-decoration: none;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    width: 38px;
+    height: 38px;
+    font-size: 9px;
+    text-align: center;
+  }
 `;

@@ -13,4 +13,10 @@ export const Navbar = styled.nav`
   justify-content: space-between;
   margin-right: 30px;
   padding: 30px;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    width: 100%;
+    align-items: center;
+    margin-right: 0px;
+  }
 `;

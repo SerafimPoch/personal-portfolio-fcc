@@ -1,5 +1,6 @@
 import React from "react";
+import { Title } from "./style";
 
 export default () => {
-  return <h2>These are some of my projects..</h2>;
+  return <Title>These are some of my projects..</Title>;
 };

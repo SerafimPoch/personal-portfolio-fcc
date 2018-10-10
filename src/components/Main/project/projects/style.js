@@ -6,6 +6,11 @@ export const ProjectsContainer = styled.div`
   align-items: center;
   margin-top: 20px;
   width: 70%;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    width: 100%;
+    margin-top: 0px;
+  }
 `;
 
 export const SquereProjectContainer = styled.div`
